@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RubiX</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/com.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link rel = "icon" href = "images/titlelogo.JPG">
+    <!-- For apple devices -->
+    <link rel = "apple-touch-icon" href = "images/titlelogo.JPG"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preload" as="image" href="https://www.fromanniek.com/wp-content/uploads/2018/06/0587f251249217.58e7079c0894c.gif" />
+    <link rel="preload" as="image" href="images/abesit-logo.gif" />
+    <link rel="preload" as="image" href="images/logo.gif" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script>
+      $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");
+      });
+    </script>
+  </head>
+  <body id="body" class="dark-mode">
+    <!--loader-->
+    <div class="se-pre-con"></div>
+    <!---logo-->
+    <div class="titlebar">
+      <img class="logo" src="images/logo.gif" alt="RubiX" />
+      <div class="wrapper">
+          <h4 class="letter"><strong>RUBI</strong></h4>
+      </div>
+      <h1 class="X" data-shadow="X">X</h1>
+      <a target="_blank" href="https://abesit.in/"
+        ><img class="college" src="images/abesit-logo.gif" alt="College Logo"
+      /></a>
+    </div>
+    <!--header-->
+    <h3
+      onclick="document.getElementsByTagName('nav')[0].className = 'menu menu_active'"
+    >
+      &lt;menu/&gt;
+    </h3>
+    <nav class="menu">
+      <p onclick="document.getElementsByTagName('nav')[0].className = 'menu'">
+        &lt;close/&gt;
+      </p>
+      <ol>
+        <li class="menu-item"><a href="#">Home</a></li>
+        <li class="menu-item">
+          <a href="http://gorubix.in/form/">Register</a>
+          <ol class="sub-menu">
+            <li class="menu-item">
+              <a href="http://gorubix.in/form/">Register</a> and be a member of
+              our <a href="#">RubiX</a> club.
+            </li>
+          </ol>
+        </li>
+        <li class="menu-item">
+          <a href="#">About</a>
+          <ol class="sub-menu">
+            <li class="menu-item"><a href="team.html">Our team</a></li>
+            <li class="menu-item"><a href="events.html">Events</a></li>
+            <li class="menu-item">
+              <a target="_blank" href="https://abesit.in/computer-science-engineering/"
+                >CSE Department</a
+              >
+            </li>
+            <li class="menu-item"><a target="_blank" href="https://abesit.in/">ABESIT</a></li>
+            <!--<li class="menu-item"><a href="#">Info</a></li>-->
+          </ol>
+        </li>
+        <!---<li class="menu-item">
+          <a href="#">item</a>
+          <ol class="sub-menu">
+            <li class="menu-item"><a href="#">1</a></li>
+            <li class="menu-item"><a href="#">2</a></li>
+            <li class="menu-item"><a href="#">3</a></li>
+          </ol>
+        </li>--->
+        <li class="menu-item"><a href="contact.html">Contact</a></li>
+      </ol>
+    </nav>
+    
+  </body>
+</html>
