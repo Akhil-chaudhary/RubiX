@@ -33,45 +33,43 @@ body {
 }
 /*logo*/
 
+* {
+  box-sizing: border-box;
+}
+.title-column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.title-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*logo*/
 @import url(https://fonts.googleapis.com/css?family=Righteous);
 .logo {
-  padding-top: 17px;
   max-width: 200px;
 }
 .college {
   padding-top: 50px;
   padding-right: 50px;
   float: right;
-  max-width: 130px;
+  max-width: 170px;
 }
-
-.wrapper {
-  padding-left: 140px;
-  position: absolute;
-  top: 36.25%;
-  left: 4.25%;
-  width: 50%;
-  font-size: 0;
-}
-
 .letter {
   width: 27.5%;
   font-family: "Space mono", monospace;
   font-size: 50px;
-  font-weight: 400px;
   font-weight: 500;
   color: white;
+  padding: 40px 0;
 }
-
-.titlebar:before,
-.titlebar:after {
-  margin: 0;
-  box-sizing: border-box;
-  position: relative;
+.title{
+  display: inline-flex;
+  top: 20px;
 }
 .X {
-  transform: translateY(-60px);
-  padding-left: 90px;
   display: inline-block;
   color: white;
   font-family: "Space mono", monospace;
@@ -85,7 +83,6 @@ body {
   top: 0.06em;
   left: 0.06em;
   z-index: -1;
-  padding-left: 90px;
   text-shadow: none;
   background-image: linear-gradient(
     45deg,

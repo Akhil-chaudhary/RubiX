@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RubiX</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/tmp.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link rel="icon" href="images/titlelogo.JPG" />
+    <!-- For apple devices -->
+    <link rel="apple-touch-icon" href="images/titlelogo.JPG" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- bootstrap v3.3.6 css -->
+    <link
+      rel="preload"
+      as="image"
+      href="https://www.fromanniek.com/wp-content/uploads/2018/06/0587f251249217.58e7079c0894c.gif"
+    />
+    <link rel="preload" as="image" href="images/abesit-logo.gif" />
+    <link rel="preload" as="image" href="images/logo.gif" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script>
+      $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");
+      });
+    </script>
+  </head>
+  <body id="body" class="dark-mode">
+    <!--loader-->
+    <div class="se-pre-con"></div>
+    <!---logo-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="column" style="display:inline-flex;">
+          <img class="logo" style="flex: 33.33%;" src="images/logo.gif" alt="RubiX" />
+          <div class="title">
+            <h4 class="letter"style="flex: 33.33%;"><strong>RUBI</strong></h4>
+            <h1 class="X" style="flex: 20%;" data-shadow="X">X</h1>
+          </div>
+        </div>
+        <div class="column">
+          <a target="_blank" href="https://abesit.in/"
+            ><img
+              class="college"
+              src="images/abesit-logo.gif"
+              alt="College Logo"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

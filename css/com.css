@@ -18,75 +18,54 @@
   z-index: 9999;
   background: url("../images/logo.gif") center no-repeat black;
 }
+ 
+* {
+  box-sizing: border-box;
+}
+.title-column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.title-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /*logo*/
 @import url(https://fonts.googleapis.com/css?family=Righteous);
-/*
-body.dark-mode {
-  background-color: $dark-color;
-  color: $light-color;
-  a {
-    color: $dark-color;
-  }
-  button {
-    background-color: $light-color;
-    color: $dark-color;
-  }
-}
-
-body.light-mode {
-  background-color: $light-color;
-  color: $dark-color;
-  a {
-    color: $dark-color;
-  }
-  button {
-    background-color: $dark-color;
-    color: $light-color;
-  }
-}
-*/
 body {
-  background: url("../images/background.gif") no-repeat black;
-  height: 100vh;
+ background-color: black;
+ /* background: url("../images/background.gif") no-repeat black;*/
+ overflow: hidden;
+}
+@media (min-width: 992px){
+.container-fluid{
+  transform: translateY(-350%);
+}
 }
 .logo {
-  padding-top: 17px;
   max-width: 200px;
 }
 .college {
   padding-top: 50px;
   padding-right: 50px;
   float: right;
-  max-width: 200px;
+  max-width: 170px;
 }
-
-.wrapper {
-  padding-left: 140px;
-  position: absolute;
-  top: 36.25%;
-  left: 4.25%;
-  width: 50%;
-  font-size: 0;
-}
-
 .letter {
   width: 27.5%;
   font-family: "Space mono", monospace;
   font-size: 50px;
-  font-weight: 400px;
   font-weight: 500;
   color: white;
+  padding: 40px 0;
 }
-
-.titlebar:before,
-.titlebar:after {
-  margin: 0;
-  box-sizing: border-box;
-  position: relative;
+.title{
+  display: inline-flex;
+  top: 20px;
 }
 .X {
-  transform: translate(6px,-60px);
-  padding-left: 90px;
   display: inline-block;
   color: white;
   font-family: "Space mono", monospace;
@@ -100,7 +79,6 @@ body {
   top: 0.06em;
   left: 0.06em;
   z-index: -1;
-  padding-left: 90px;
   text-shadow: none;
   background-image: linear-gradient(
     45deg,
@@ -212,10 +190,6 @@ body {
   font-style: normal;
 }
 
-body {
-  background: url("../images/background.gif") no-repeat black;
-  height: 100vh;
-}
 
 a {
   color: inherit;
