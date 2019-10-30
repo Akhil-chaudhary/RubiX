@@ -18,7 +18,16 @@
   z-index: 9999;
   background: url("../images/logo.gif") center no-repeat black;
 }
- 
+/*
+:root { 
+  background-color: #fefefe;
+  filter: invert(100%);
+}
+
+* { 
+  background-color: inherit;
+}
+*/
 * {
   font-family: "Space mono", monospace;
   box-sizing: border-box;
@@ -62,6 +71,7 @@ body {
   font-weight: 500;
   color: white;
   padding: 40px 0;
+  z-index: 1;
 }
 .title{
   display: inline-flex;
@@ -91,8 +101,7 @@ body {
   );
   background-size: 0.05em 0.05em;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
+  -webkit-text-fill-color:transparent;
   animation: shad-anim 15s linear infinite;
 }
 
@@ -285,9 +294,9 @@ p:hover {
 }
 /*events section*/
 .box{
-  margin:7% 10%;
+  margin:5% 5%;
   overflow: hidden;
-  padding: 10px 0 40px 60px
+  padding: 10px 0 40px 60px;
 }
 
 .box ul{
@@ -296,7 +305,7 @@ p:hover {
   padding: 0;
   position: relative;
   transition: all 0.5s linear;
-  top:0
+  top:0;
 }
 
 .box ul:last-of-type{top:80px}
@@ -315,7 +324,7 @@ p:hover {
 .box ul li{
   margin: 20px 60px 60px;
   position: relative;
-  padding: 10px 20px;
+  padding: 20px 20px;
   background:#1d1f20;;
   color:white;
   border-radius: 10px;
@@ -358,6 +367,8 @@ p:hover {
 }
 .img{
   border-radius: 10px;
+  width:100%;
+  align-content: center;
 }
 .img:hover{
   filter: grayscale();
@@ -449,4 +460,9 @@ svg{
   50%{
       top:106%
   }
+}
+@media (max-width: 992px){
+.box ul li{
+  width:80%;
+}
 }
