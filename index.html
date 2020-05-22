@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="bg">
   <head>
     <title>RubiX</title>
     <meta charset="UTF-8" />
@@ -24,7 +24,7 @@
       href="https://www.fromanniek.com/wp-content/uploads/2018/06/0587f251249217.58e7079c0894c.gif"
     />
     <link rel="preload" as="image" href="images/abesit-logo.gif" />
-    <link rel="preload" as="image" href="images/logo.gif" />
+    <link rel="preload" as="image" href="images/logo-trans.gif" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
     <script>
@@ -34,22 +34,18 @@
       });
     </script>
   </head>
-  <body id="particles-js" class="dark-mode homepagebody">
-    
-<!-- scripts -->
-<script src="js/particles.js"></script>
-<script src="js/app.js"></script>
+  <body class="dark-mode homepagebody">
     <!--loader-->
     <div class="se-pre-con"></div>
     <!---logo-->
     
-    <div class="container-fluid homepage">
-      <div class="title-row">
-        <div class="title-column" style="display:inline-flex;">
+      <div class="container homepage">
+        <div class="row title-row">
+        <div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0 title-column flex">
           <img
             class="logo"
             style="flex: 33.33%;"
-            src="images/logo.gif"
+            src="images/logo-trans.gif"
             alt="RubiX"
           />
           <div class="title">
@@ -57,7 +53,7 @@
             <h1 class="X" style="flex: 20%;" data-shadow="X">X</h1>
           </div>
         </div>
-        <div class="title-column">
+        <div class="col-md-9 col-md-offset-3 col-xs-12 col-xs-offset-0 title-column">
           <a style="border-color:none;" target="_blank" href="https://abesit.in/"
             ><img
               class="college"
@@ -68,13 +64,11 @@
       </div>
     </div>
     <!--header-->
-    <header>
     <h3
       onclick="document.getElementsByTagName('nav')[0].className = 'menu menu_active'"
     >
       &lt;menu/&gt;
     </h3>
-    </header>
     <nav class="menu">
       <p onclick="document.getElementsByTagName('nav')[0].className = 'menu'">
         &lt;close/&gt;
@@ -119,5 +113,20 @@
         <li class="menu-item"><a href="contact.html">Contact</a></li>
       </ol>
     </nav>
+    <script src="js/vendor.js"></script>
+<script src="js/background.js"></script>
+<script>
+  VANTA.NET({
+    el: "#bg",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0xffffff,
+    backgroundColor: 0x0
+  })
+  </script>
   </body>
 </html>
