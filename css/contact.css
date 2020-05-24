@@ -166,3 +166,10 @@ textarea:hover {
 .homepage{
   transform: translateY(-50px);
 }
+
+.otherh3{
+  top:300px;
+}
+.otherh3:hover{
+  top:300px;
+}
