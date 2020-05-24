@@ -2,9 +2,10 @@
 
 body{
   font-family: 'Raleway', sans-serif;
-  color: #333;
 }
-
+.footer{
+  bottom: 0px;
+}
 header h1{
   text-align: center;
   font-weight: bold;
@@ -65,7 +66,7 @@ header h1{
 .timeline:before {
   position: absolute;
   left: 50%;
-  top: 310px;
+  top: 0px;
   content: ' ';
   display: block;
   width: 2px;
@@ -164,7 +165,6 @@ header h1{
 
 .time-wrapper {
   display: block;
-  position: relative;
   margin: 4px 0 0 0;
   z-index: 14;
   line-height: 1em;
@@ -210,13 +210,10 @@ header h1{
     width: 660px;
     margin: 0 auto;
     margin-top: 20px;
-    
-  transform: translateY(300px);
   }
 
   .timeline:before {
-      
-  top: 200px;
+  top: 0px;
   }
   .timeline li:after {
     content: "";
@@ -323,7 +320,10 @@ header h1{
   }
 }
 .otherh3{
-  transform: translateY(-250px);
+  top:35px;
+}
+.otherh3:hover{
+  top:35px;
 }
 
 #bg{

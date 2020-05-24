@@ -80,6 +80,7 @@ body {
 .title{
   display: inline-flex;
   top: 20px;
+  left:-20px ;
 }
 .X {
   display: inline-block;
@@ -395,14 +396,14 @@ svg{
 }
 
 @media (max-width: 600px){
- .col-xs-12{
-   align-items: center;
-   align-content: center;
-   justify-content: center;
-   width: 100%;
- }
+  .title-column{
+    width: 100%;
+  }
+  .college{
+    right: 20%;
+    transform: translateY(-100px);
+  }
  h3{
-   
   top: calc(60vh);
  }
  h3:hover{
@@ -411,8 +412,9 @@ svg{
  }
  .otherh3,.otherh3:hover{
   left: 5%;
-  top: calc(60vh - 10px);
+  top: calc(50vh - 10px);
   position: absolute;
+  z-index: 15;
 }
 }
 
