@@ -403,6 +403,9 @@ svg{
     right: 20%;
     transform: translateY(-100px);
   }
+  .vanta-canvas{
+    overflow: hidden;
+  }
  h3{
   top: calc(60vh);
  }
