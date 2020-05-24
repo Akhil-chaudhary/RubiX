@@ -403,9 +403,6 @@ svg{
     right: 20%;
     transform: translateY(-100px);
   }
-  #bg{
-    overflow: hidden;
-  }
  h3{
   top: calc(60vh);
  }
