@@ -167,9 +167,11 @@ textarea:hover {
   transform: translateY(-50px);
 }
 
+@media(max-width: 600px){
 .otherh3{
   top:300px;
 }
 .otherh3:hover{
   top:300px;
+}
 }
