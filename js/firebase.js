@@ -35,7 +35,8 @@ var config = {
     // },3000);
   
     // Clear form
-    document.getElementById('contactForm').reset();
+    document.getElementById('form').reset();
+    alert("Message Sent!");
   }
   
   // Function to get get form values
