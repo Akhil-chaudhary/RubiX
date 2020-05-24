@@ -42,6 +42,9 @@
 html.dark-mode img {
   filter: invert(100%);
 }
+html.dark-mode .rev {
+  filter: invert(0%);
+}
 html{
   width: 100%;
   height: 100%;
