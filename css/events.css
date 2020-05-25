@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
-
+html{
+  height: 1200px;
+}
 body{
   font-family: 'Raleway', sans-serif;
 }
@@ -326,6 +328,4 @@ header h1{
   top:35px;
 }
 
-#bg{
-  height: 250%;
-}
+
