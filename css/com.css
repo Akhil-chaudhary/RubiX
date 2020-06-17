@@ -45,6 +45,17 @@ html.dark-mode img {
 html.dark-mode .rev {
   filter: invert(0%);
 }
+html.dark-mode ::-webkit-scrollbar {
+  width: 8px;
+}
+
+html.dark-mode ::-webkit-scrollbar-track {
+  background-color:#fff;
+}
+
+html.dark-mode ::-webkit-scrollbar-thumb {
+  background: black; 
+}
 html{
   width: 100%;
   height: 100%;
@@ -627,4 +638,19 @@ input:checked + .slider:before {
   -ms-transform: translateX(26px);
   transform: translateX(26px);
   background-color: #E5F0FF;  
+}
+
+
+
+/*--------------Scroll Bar-----------------*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffff; 
 }
