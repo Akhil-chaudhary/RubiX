@@ -101,4 +101,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Author
 
-* **Akhil Chaudhary** 
+* [Akhil Chaudhary](https://akhilchaudhary.in/)
