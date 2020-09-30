@@ -64,6 +64,7 @@
     - [Deployment](#deployment)
   - [License](#license)
   - [Author](#author)
+  - [Connect with me](#connect-with-me)
 
 <br/>
 
@@ -94,18 +95,6 @@ This was just a fun project in order to explore the field of frontend developmen
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-<!-- <a href="https://ibb.co/ZWmv7Cm"><img src="https://i.ibb.co/qk5hVw5/Change-branch.png" alt="Change-branch" border="0"></a>
-<a href="https://ibb.co/3WZdycG"><img src="https://i.ibb.co/hHz9RVh/clone-repo.png" alt="clone-repo" border="0"></a>
-<a href="https://ibb.co/pQQS23J"><img src="https://i.ibb.co/zFFzsSG/clone-the-repo.png" alt="clone-the-repo" border="0"></a>
-<a href="https://ibb.co/51gQtJ5"><img src="https://i.ibb.co/2F1zmpj/comit-change.png" alt="comit-change" border="0"></a>
-<a href="https://ibb.co/cDjCYzp"><img src="https://i.ibb.co/SRzdfq1/download-android-studio.png" alt="download-android-studio" border="0"></a>
-<a href="https://ibb.co/Q8ntG3g"><img src="https://i.ibb.co/n3ftSNG/hacktoberfest-get-started.png" alt="hacktoberfest-get-started" border="0"></a>
-<a href="https://ibb.co/7Jsxmsp"><img src="https://i.ibb.co/SXFDCFm/hacktoberfest-website.png" alt="hacktoberfest-website" border="0"></a>
-<a href="https://ibb.co/zJjKjjw"><img src="https://i.ibb.co/L5b4bbf/open-pr.png" alt="open-pr" border="0"></a>
-<a href="https://ibb.co/1sfwDt6"><img src="https://i.ibb.co/xmSRptH/Open-project.png" alt="Open-project" border="0"></a>
-<a href="https://ibb.co/gTqJPCP"><img src="https://i.ibb.co/4TvpYxY/push-changes.png" alt="push-changes" border="0"></a>
-<a href="https://ibb.co/n6N1dQP"><img src="https://i.ibb.co/fqzN6rD/star-repo.png" alt="star-repo" border="0"></a> -->
 
 ### 1. Register yourself to Hacktoberfest 2020
 ###### Link to register: https://hacktoberfest.digitalocean.com/
@@ -225,3 +214,19 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Author
 
 * [Akhil Chaudhary](https://akhilchaudhary.in/)
+
+## Connect with me
+<div align="center">
+<a href="https://github.com/Akhil-chaudhary/" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>
+<a href="https://www.linkedin.com/in/akhil-chaudhary-0478a1187/" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>
+<a href="facebook.com/AkhilChaudhary8181022104/" target="_blank">
+<img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
+</a>
+<a href="https://www.instagram.com/akhilchaudhary.js/" target="_blank">
+<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
+</a>
+</div> 
