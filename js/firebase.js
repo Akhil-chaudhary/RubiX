@@ -1,10 +1,5 @@
 var config = {
-    apiKey: "AIzaSyAIl-EpAdZmjnEJAmWyUR2VaeTsD2mup_w",
-    authDomain: "portfolio-1cfc2.firebaseapp.com",
-    databaseURL: "https://portfolio-1cfc2.firebaseio.com",
-    projectId: "portfolio-1cfc2",
-    storageBucket: "portfolio-1cfc2.appspot.com",
-    messagingSenderId: "345848544510",
+  //add your configurations
   };
   firebase.initializeApp(config);
   var i=1;
