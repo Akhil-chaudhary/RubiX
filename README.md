@@ -1,4 +1,4 @@
-# Awesome Hacktoberfest [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Hacktoberfest ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 
 > [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a chance to level up your coding skills and get small goodies in reward.
 
@@ -20,25 +20,35 @@
 # RubiX 
 [Preview:eye:](https://akhil-chaudhary.github.io/RubiX/)
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+<p align="center">
+<a href="https://github.com/Akhil-chaudhary/RubiX/network/members">
+      <img alt="Forks" src="https://img.shields.io/github/forks/Akhil-chaudhary/RubiX?style=for-the-badge" />
+    </a>
+    <a href="https://github.com/Akhil-chaudhary/RubiX/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/Akhil-chaudhary/RubiX?style=for-the-badge" />
+    </a>
+    <a href="https://github.com/Akhil-chaudhary/RubiX/blob/master/LICENSE">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/license/Akhil-chaudhary/RubiX?style=for-the-badge" />
+    </a>
+</p>
 
 The website for rubiX club.
 This was just a fun project in order to explore the field of frontend development using css and html
 
 ## Table of Contents
 
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-  * [Deployment](#deployment)
-* [Contributing](#contributing)
-* [License](#license)
-* [Author](#author)
+- [Awesome Hacktoberfest ![Awesome]](#awesome-hacktoberfest-img-srchttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvg-altawesome)
+  - [Official website for registration and tips on how to get started](#official-website-for-registration-and-tips-on-how-to-get-started)
+- [RubiX](#rubix)
+  - [Table of Contents](#table-of-contents)
+  - [Built With](#built-with)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Deployment](#deployment)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Author](#author)
 
 ## Built With
 
