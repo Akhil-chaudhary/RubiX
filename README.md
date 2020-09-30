@@ -69,7 +69,7 @@
 <br/>
 
 # RubiX 
-<!---[Preview:eye:](https://akhil-chaudhary.github.io/RubiX/)--->
+[Preview:eye:](https://dscabesit.github.io/RubiX/)
 
 <p align="center">
 <a href="https://github.com/dscabesit/RubiX/network/members">
