@@ -69,17 +69,17 @@
 <br/>
 
 # RubiX 
-[Preview:eye:](https://akhil-chaudhary.github.io/RubiX/)
+<!---[Preview:eye:](https://akhil-chaudhary.github.io/RubiX/)--->
 
 <p align="center">
-<a href="https://github.com/Akhil-chaudhary/RubiX/network/members">
-      <img alt="Forks" src="https://img.shields.io/github/forks/Akhil-chaudhary/RubiX?style=for-the-badge" />
+<a href="https://github.com/dscabesit/RubiX/network/members">
+      <img alt="Forks" src="https://img.shields.io/github/forks/dscabesit/RubiX?style=for-the-badge" />
     </a>
-    <a href="https://github.com/Akhil-chaudhary/RubiX/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/Akhil-chaudhary/RubiX?style=for-the-badge" />
+    <a href="https://github.com/dscabesit/RubiX/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/dscabesit/RubiX?style=for-the-badge" />
     </a>
-    <a href="https://github.com/Akhil-chaudhary/RubiX/blob/master/LICENSE">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/license/Akhil-chaudhary/RubiX?style=for-the-badge" />
+    <a href="https://github.com/dscabesit/RubiX/blob/master/LICENSE">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/license/dscabesit/RubiX?style=for-the-badge" />
     </a>
 </p>
 
@@ -116,14 +116,14 @@ These instructions will get you a copy of the project up and running on your loc
 ###### We’ll use the git clone command along with the URL that points to your fork of the repository.
 ###### This URL will be similar to the URL above, except now it will end with .git. In the example above, the URL will look like this:
 
-https://github.com/Akhil-chaudhary/RubiX.git
+https://github.com/dscabesit/RubiX.git
 
 ###### You can alternatively copy the URL by using the green “Clone or download” button from your repository page that you just forked from the original repository page. Once you click the button, you’ll be able to copy the URL by clicking the binder button next to the URL:
 ![](https://i.ibb.co/zb6JnJN/clone.jpg)
 
 ###### Once we have the URL, we’re ready to clone the repository. To do this, we’ll combine the git clone command with the repository URL from the command line in a terminal window:
 ```
-git clone https://github.com/Akhil-chaudhary/RubiX.git
+git clone https://github.com/dscabesit/RubiX.git
 ```
 
 ### 5. Create New Branch
@@ -155,7 +155,7 @@ git push --set-upstream origin new-branch
 ### 8. Configure a Remote for the Fork
 ###### You’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. you’ll have to do this with the git remote add command.
 ```
-git remote add upstream https://github.com/Akhil-chaudhary/RubiX
+git remote add upstream https://github.com/dscabesit/RubiX
 ```
 ###### In this example, // upstream // is the shortname we have supplied for the remote repository since in terms of Git, “upstream” refers to the repository that you cloned from. If you want to add a remote pointer to the repository of a collaborator, you may want to provide that collaborator’s username or a shortened nickname for the shortname.
 
