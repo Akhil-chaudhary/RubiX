@@ -1,3 +1,17 @@
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Awesome Hacktoberfest !Awesome](#awesome-hacktoberfest-img-srchttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvg-altawesome)
+  - [Official website for registration and tips on how to get started](#official-website-for-registration-and-tips-on-how-to-get-started)
+- [RubiX](#rubix)
+  - [Built With](#built-with)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Deployment](#deployment)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Author](#author)
+
 # Awesome Hacktoberfest ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 
 > [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a chance to level up your coding skills and get small goodies in reward.
@@ -34,21 +48,6 @@
 
 The website for rubiX club.
 This was just a fun project in order to explore the field of frontend development using css and html
-
-## Table of Contents
-
-- [Awesome Hacktoberfest ![Awesome]](#awesome-hacktoberfest-img-srchttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvg-altawesome)
-  - [Official website for registration and tips on how to get started](#official-website-for-registration-and-tips-on-how-to-get-started)
-- [RubiX](#rubix)
-  - [Table of Contents](#table-of-contents)
-  - [Built With](#built-with)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Deployment](#deployment)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Author](#author)
 
 ## Built With
 
