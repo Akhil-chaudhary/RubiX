@@ -91,6 +91,7 @@ This was just a fun project in order to explore the field of frontend developmen
 * [HTML5](https://html.com/)
 * [CSS](https://www.codecademy.com/learn/learn-css)
 * [JAVASCRIPT](https://www.javascript.com/)
+* [FIREBASE](https://firebase.google.com/)
 
 ## Getting Started
 
