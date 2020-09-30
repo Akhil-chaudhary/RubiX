@@ -1,3 +1,16 @@
+# Awesome Hacktoberfest [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+> [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a chance to level up your coding skills and get small goodies in reward.
+> This page lists links to awesome background information and links to awesome contribution possibilities.
+
+[![Hacktoberfest 2019 logo](https://i.ibb.co/4FjRdbH/Logo-Sponsors-Light.png)](https://hacktoberfest.digitalocean.com/)
+
+## Official website for registration and tips on how to get started
+
+- [Hacktoberfest Official Website](https://hacktoberfest.digitalocean.com/)
+- [Hacktoberfest Tutorial](https://youtu.be/0mjJS1Y8wrI) - Introduction to Hacktoberfest
+- [Hacktoberfest Swag List](https://benbarth.github.io/hacktoberfest-swag/) - List of all goodies given away by companies
+
 # RubiX 
 [Preview:eye:](https://akhil-chaudhary.github.io/RubiX/)
 
@@ -13,6 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 A web browser:globe_with_meridians:
+A text editor
 
 ### Installing
 
