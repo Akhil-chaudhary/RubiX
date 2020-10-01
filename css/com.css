@@ -83,7 +83,9 @@ body {
   top:0;
 }
 .logo {
-  max-width: 200px;
+  max-width: 130px;
+  margin: 35px;
+  mix-blend-mode: lighten;
 }
 .college {
   padding-top: 50px;
