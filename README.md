@@ -92,6 +92,7 @@ This was just a fun project in order to explore the field of frontend developmen
 * [CSS](https://www.codecademy.com/learn/learn-css)
 * [JAVASCRIPT](https://www.javascript.com/)
 * [FIREBASE](https://firebase.google.com/)
+* [VantaJS](https://www.vantajs.com/)
 
 ## Getting Started
 
