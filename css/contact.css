@@ -175,3 +175,9 @@ textarea:hover {
   top:300px;
 }
 }
+
+@media(max-width: 400px) {
+  input, textarea, #submit {
+    max-width: 360px;
+  }
+}
