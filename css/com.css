@@ -654,3 +654,20 @@ input:checked + .slider:before {
 ::-webkit-scrollbar-thumb {
   background: #ffff; 
 }
+
+@media(max-width: 400px) {
+  .slider:before {
+    height: 16px;
+    width: 16px;
+    bottom: 2px;
+  }
+  .switch {
+    height: 20px;
+    width: 40px;
+  }
+  input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px); 
+}
+}
